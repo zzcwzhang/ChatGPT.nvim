@@ -52,6 +52,8 @@ M.complete = function()
   set_loading(true)
 
   -- Api.completions({
+  print("Api.completions")
+
   Api.chat_completions({
     model = "code-davinci-002",
     prompt = prefix,

@@ -51,6 +51,7 @@ function EditAction:run()
 
     local params = self:get_params()
     -- Api.edits(params, function(answer, usage)
+    print("Api.edits!!")
     Api.chat_completions(params, function(answer, usage)
       self:on_result(answer, usage)
     end)
