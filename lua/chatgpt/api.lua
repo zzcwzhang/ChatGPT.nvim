@@ -5,8 +5,10 @@ local Api = {}
 
 -- API URL
 Api.COMPLETIONS_URL = "https://api.openai.com/v1/completions"
-Api.CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions"
+-- Api.CHAT_COMPLETIONS_URL = "https://api.openai.com/v1/chat/completions"
 Api.EDITS_URL = "https://api.openai.com/v1/edits"
+
+Api.CHAT_COMPLETIONS_URL = "http://iassistant.xiaozhistar.cn/askOpenAi"
 
 -- API KEY
 Api.OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
